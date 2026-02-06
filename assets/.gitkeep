@@ -1,2 +1,12 @@
-This directory contains the template.pdf asset file.
-Due to file size constraints, the template PDF should be downloaded separately or added via git LFS.
+The template.pdf file should be added to this directory manually.
+
+It is a reference PDF that demonstrates the professional structure and formatting
+that all generated style guides should follow.
+
+To add it:
+  git clone https://github.com/TomsTools11/style-guide-generator.git
+  cp /path/to/template.pdf style-guide-generator/assets/
+  cd style-guide-generator
+  git add assets/template.pdf
+  git commit -m "Add template PDF asset"
+  git push
