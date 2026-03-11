@@ -202,7 +202,7 @@ def main():
     }
     
     print(json.dumps(example_result, indent=2))
-    print("\n\u2705 Analysis complete")
+    print("\n✅ Analysis complete")
 
 
 if __name__ == "__main__":
